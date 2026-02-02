@@ -1,0 +1,6 @@
+-c
+-I"C:/99_Study/WorkSpace/S32K_Study/Hello_World/include"
+-x assembler-with-cpp
+-mcpu=cortex-m4
+-specs=nano.specs
+-specs=nosys.specs

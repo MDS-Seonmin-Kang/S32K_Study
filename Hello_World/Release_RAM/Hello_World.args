@@ -1,0 +1,13 @@
+-T
+"C:/99_Study/WorkSpace/S32K_Study/Hello_World/Project_Settings/Linker_Files/S32K144_64_ram.ld"
+-Wl,-Map,"Hello_World.map"
+-Xlinker
+--gc-sections
+-n
+-mcpu=cortex-m4
+-specs=nano.specs
+-specs=nosys.specs
+"./Project_Settings/Startup_Code/startup.o"
+"./Project_Settings/Startup_Code/startup_S32K144.o"
+"./Project_Settings/Startup_Code/system_S32K144.o"
+"./src/hello.o"
